@@ -15,5 +15,9 @@ then
 	echo "Jesteś pełnoletni"
 else
 	echo "Jesteś niepełnoletni"
+	ilebrakuje=$(( 18 - wiek ))
+	rokp=$((biez + ilebrakuje))
+	echo "Brakuje ci $ilebrakuje lat"
+	echo "Będziesz pełnoletni w $rokp"
 fi
 
