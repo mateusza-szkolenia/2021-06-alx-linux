@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "Dzień dobry"
-echo "jest dzisiaj:"
+echo -n "jest dzisiaj: "
 date +%F
