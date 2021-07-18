@@ -1,6 +1,7 @@
 # Wczytywanie wielu zmiennych
 
-```
+Skrypt
+```bash
 #!/bin/bash
 
 read imie nazwisko
@@ -9,6 +10,7 @@ echo "Imie: $imie"
 echo "Nazwisko: $nazwisko"
 ```
 
+Normalne użycie - podanie dwóch wartości do dwóch zmiennych:
 ```
 $ ./zmienne05.sh 
 Janek Kowalski
