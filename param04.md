@@ -43,3 +43,15 @@ Parametr 4:
 Parametr 5: 
 ```
 
+Przekazanie wzorca niepasującego do żadnego pliku. Powoduje to przekazanie wzorca **dosłownie**!
+```
+$ ./param04.sh *.mp3
+Uruchomiono skrypt (liczba par: 1)
+Parametr 1: *.mp3
+Parametr 2: 
+Parametr 3: 
+Parametr 4: 
+Parametr 5: 
+```
+
+
