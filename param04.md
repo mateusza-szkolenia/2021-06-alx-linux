@@ -32,3 +32,14 @@ Parametr 4: param03.md
 Parametr 5: ukosniki.md
 ```
 
+Przekazanie wzorca w cudzysłowie:
+```
+$ ./param04.sh "*.md"
+Uruchomiono skrypt (liczba par: 1)
+Parametr 1: *.md
+Parametr 2: 
+Parametr 3: 
+Parametr 4: 
+Parametr 5: 
+```
+
