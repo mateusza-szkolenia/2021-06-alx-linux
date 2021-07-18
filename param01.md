@@ -46,3 +46,30 @@ Parametr 2:
 Parametr 3: 
 ```
 
+Użycie cudzysłowów:
+```
+$ ./param01.sh "Ala ma kota"
+Uruchomiono skrypt
+Parametr 1: Ala ma kota
+Parametr 2: 
+Parametr 3: 
+```
+
+Użycie apostrofów:
+```
+$ ./param01.sh 'Ala ma kota'
+Uruchomiono skrypt
+Parametr 1: Ala ma kota
+Parametr 2: 
+Parametr 3: 
+```
+
+Wiele parametrów:
+```
+$ ./param01.sh 'Ala ma kota' 'Ola ma psa'
+Uruchomiono skrypt
+Parametr 1: Ala ma kota
+Parametr 2: Ola ma psa
+Parametr 3: 
+```
+
