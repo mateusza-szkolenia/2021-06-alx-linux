@@ -3,7 +3,9 @@
 rozszerzenie=bz2
 kompresja=j
 
-echo "Pakuję dokumentację findutils do backup.tar.$rozszerzenie"
+nazwa_archiwum=backup-$(date +%F).tar.$rozszerzenie
 
-tar -${kompresja}cf backup-$(date +%F).tar.$rozszerzenie -C /usr/share/doc  findutils-4.5.11
+echo "Pakuję dokumentację findutils do $nazwa_archiwum"
+
+tar -${kompresja}cf $nazwa_archiwum -C /usr/share/doc  findutils-4.5.11
 
