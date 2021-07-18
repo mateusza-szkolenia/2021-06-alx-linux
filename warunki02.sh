@@ -7,6 +7,9 @@ then
 	echo "Użytkownik $u istnieje"
 	echo "Hurra!"
 	echo "Udało się"
+else
+	echo "Użytkownik $u nie istnieje"
+	# TODO: utworzyć konto itp
 fi
 
 echo "Koniec"
