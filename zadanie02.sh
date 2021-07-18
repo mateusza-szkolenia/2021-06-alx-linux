@@ -1,5 +1,4 @@
 #!/bin/bash
 
-echo -n "Podaj nazwę użytkownika: "
-read username
+read -p "Podaj nazwę użytkownika: " username
 echo "Użytkownik $username ma id równe: $(id --user $username)"
