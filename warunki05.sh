@@ -2,13 +2,13 @@
 
 read -p "Jak się nazywasz? " imie
 
-if test "$imie" == "Mateusz"
+if [ "$imie" == "Mateusz" ]
 then
 	echo "Witaj, nauczycielu"
-elif test "$imie" == "Jacek"
+elif [ "$imie" == "Jacek" ]
 then
 	echo "Witaj, prezesie"
-elif test "$imie" == "Janusz"
+elif [ "$imie" == "Janusz" ]
 then
 	echo "Witaj, Diodak"
 else
