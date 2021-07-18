@@ -73,3 +73,22 @@ Parametr 2: Ola ma psa
 Parametr 3: 
 ```
 
+Użycie cudzysłówów tylko dla fragmentów napisu:
+```
+$ ./param01.sh Ala" ma psa"' "Mruczka"'
+Uruchomiono skrypt
+Parametr 1: Ala ma psa "Mruczka"
+Parametr 2: 
+Parametr 3: 
+```
+
+Wyjaśnienie
+```
+$ ./param01.sh Ala" ma psa"' "Mruczka"'
+               ^^^			pierwszy fragment, bez cudzysłowu: Ala
+                   ^^^^^^^ 		drugi fragment, w cudzysłowie
+			    ^^^^^^^^^^  trzeci fragment, w apostrofach 
+Efekt:
+Parametr 1: Ala ma psa "Mruczka"
+```
+
