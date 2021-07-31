@@ -6,7 +6,5 @@
 if ! [ -d "alamakota" ]
 then
 	mkdir "alamakota"
-else
-	echo "Katalog istnieje, nie robię nic"
 fi
 
