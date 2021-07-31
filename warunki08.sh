@@ -3,10 +3,10 @@
 # napisać skrypt, który sprawdzi czy istnieje katalog "alamakota"
 # jeśli nie, to go utworzy
 
-if [ -d "alamakota" ]
+if [ ! -d "alamakota" ]
 then
-	echo "Katalog istnieje, nie robię nic"
-else
 	mkdir "alamakota"
+else
+	echo "Katalog istnieje, nie robię nic"
 fi
 
