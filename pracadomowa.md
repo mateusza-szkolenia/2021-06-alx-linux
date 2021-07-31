@@ -17,8 +17,13 @@ Skrypt ma każdemu pracownikowi wygenerować nazwę konta np.
 Skrypt ma sprawdzić, czy konto o danej nazwie już istnieje. Jeśli tak, to dopisać na końcu liczbę, aby nazwa była unikalna.
 * `rnowak` istnieje, więc sprawdzamy `rnowak2` itd (`rnowak3`, `rnowak4` ...)
 
-Skrypt ma utworzyć konto o wybranej nazwie.
+Skrypt ma utworzyć konto o wybranej nazwie. (`adduser`)
 
-Skrypt ma wygenerować losowe hasło i ustawić je jako hasło konta.
+Skrypt ma wygenerować losowe hasło (`pwgen`) i ustawić je jako hasło konta. (`chpasswd`)
 
-Skryp ma utworzyć listę nazw kont i haseł i zapisać ją w pliku wyjściowym.
+Skrypt ma utworzyć listę nazw kont i haseł i zapisać ją w pliku wyjściowym.
+
+## Uwaga
+
+Skrypt ma sprawdzać, czy jest uruchamiany na prawach roota.
+LUB: Używać `sudo` do kluczowych operacji.
