@@ -1,14 +1,15 @@
 #!/bin/bash
 
 powitaj () {
-	local x
+	local x y imie firma
+	local miasto panstwo
+
 	echo -n "$1: "
 	for x in {0001..0007}
 	do
 		echo -n "$x "
 	done
 	echo
-
 }
 
 
