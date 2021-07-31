@@ -1,6 +1,7 @@
 #!/bin/bash
 
 powitaj () {
+	local x
 	echo -n "$1: "
 	for x in {0001..0007}
 	do
