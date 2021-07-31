@@ -5,15 +5,10 @@ do
 
 	echo "Mamy rok: $rok"
 
-	if [ "$rok" -eq "2001" ]
-	then
-		continue
-	fi
+	[ "$rok" -eq "2001" ] && continue
 
 	echo "Jaki piękny rok"
-	if [ "$rok" -eq "2021" ]
-	then
-		break
-	fi
+
+	[ "$rok" -eq "2021" ] && break
 done
 
